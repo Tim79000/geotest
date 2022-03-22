@@ -1,0 +1,8 @@
+topsoil (top layer)
+subsoil (depth layer)
+river (riverbed)
+bedrock (stratum -25 to -50)
+subrock (stratum -50 to -100)
+lowrock (stratum -100 to -500)
+deeprock (stratum -500 to -600)
+mantle (stratum -610 to -31000) [typically molten olivine]
