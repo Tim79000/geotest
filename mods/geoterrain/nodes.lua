@@ -104,6 +104,13 @@ minetest.register_node("geoterrain:cracked_clay", {
 })
 -- Cracked Clay is found in dried lakebeds. These landforms are characterised by a region of lowered terrain in which water could have pooled up in.
 
+minetest.register_node("geoterrain:sandstone", {
+	description = "Sandstone",
+	tiles = {{name = "a.sandstone.png", align_style = "world", scale = 2}},
+	groups = {chippable = 1, cracky = 1}
+})
+-- Sandstone is found as subsoil in deserts.
+
 minetest.register_node("geoterrain:topsoil", {
 	description = "Soil",
 	tiles = {{name = "a.top_soil.png", align_style = "world", scale = 2}},
