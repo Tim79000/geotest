@@ -13,6 +13,7 @@ local add_stratum = function(y_min, y_max, node, biomes)
 		y_min            = y_min,
 		biomes = biomes
 	})
+        end
 end
 
 add_stratum(-50, -25, "mapgen_bedrock", null)
